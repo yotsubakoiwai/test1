@@ -9,7 +9,7 @@ import cucumber.api.java.en.*;  // Given, When, Then
 
 public class SearchSteps extends DriverFactory{
 	
-	@Given("^I am on the main Google search webpage$")
+	@Given("^I am on the main Google search web page$")
 	public void i_am_on_the_main_Google_search_webpage() throws Throwable {
 		driver.get("http://www.google.com");
 	}
